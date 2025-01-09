@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background-color: #3b82c4;
+  background-color: #2d3034;
 }
 
 section {
@@ -56,7 +56,7 @@ a {
   padding: 2rem 3.75rem;
   border-radius: 30px;
   font-size: 1.7rem;
-  color: #009ffd;
+  color: #4cc9f0;
   background-color: white;
   cursor: pointer;
 }
@@ -66,19 +66,19 @@ a {
   padding: 2rem 3.75rem;
   border-radius: 30px;
   font-size: 1.7rem;
-  color: #009ffd;
+  color: #4cc9f0;
   background-color: white;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #009ffd;
+  background-color: #4cc9f0;
   color: white;
 }
 
 .btn1:hover {
   opacity: 0.8;
-  background-color: #009ffd;
+  background-color: #4cc9f0;
   color: white;
 }
 
@@ -92,7 +92,7 @@ a {
 
 .heading span {
   text-transform: uppercase;
-  color: var(--black-color);
+  color: #4cc9f0;
 }
 
 .box-container {
@@ -125,7 +125,7 @@ a {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 3rem;
-  background-color: greenyellow;
+  background-color: #4cc9f0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -277,7 +277,7 @@ a {
 
 .home .content h3 {
   font-size: 6rem;
-  color: #0AD3FF;
+  color: #4cc9f0;
 }
 
 .home .content p {
@@ -347,17 +347,16 @@ a {
 .about .row .content p.paragraphHeader {
   font-size: 3.8rem;
   font-style: bold;
-  color: var(--black);
+  color: #4cc9f0;
   padding: 1rem 0;
   line-height: 1.8;
   font-weight: bold;
+  text-transform: capitalize;
 }
-
 
 /* ------------------------------------------ABOUT US SECTION */
 
 /* ------------------------------------------REVIEW SECTION */
-
 
 .review .box-container .box img {
   height: 20rem;
@@ -390,7 +389,7 @@ a {
 
 .contact .row {
   display: flex;
-  background-color:rgba(227, 224, 221, 0.713);
+  background-color: rgba(227, 224, 221, 0.713);
   flex-wrap: wrap;
   gap: 1rem;
 }
@@ -438,6 +437,105 @@ a {
   color: var(--main-color);
   background-color: #fff;
   font-weight: bold;
+}
+
+.contact-map-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.map-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 1;
+}
+
+.contact-options {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+  padding: 20px;
+  z-index: 2;
+  pointer-events: none; /* This allows clicks to pass through to the map */
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+  pointer-events: auto; /* Re-enable pointer events for cards */
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card i {
+  font-size: 40px;
+  color: #4cc9f0;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.contact-card p {
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #4cc9f0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #3f4448;
+}
+
+@media (max-width: 968px) {
+  .contact-options {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 /* ------------------------------------------CONTACT SECTION */
 
@@ -503,7 +601,7 @@ a {
 }
 
 .footer .share a:hover {
-  background-color: #ffa400;
+  background-color: #4cc9f0;
 }
 
 .footer .links {
@@ -581,7 +679,7 @@ a {
     right: 0;
   }
   .header .navbar a {
-    color: var(--black-color);
+    color: black;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
@@ -598,7 +696,7 @@ a {
 /* ------------------------------------------MENU SECTION */
 
 :root {
-  --main-color: #284990;
+  --main-color: #4cc9f0;
   --black: #13131a;
   --bg: #010103;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
@@ -621,14 +719,14 @@ a {
   margin: 0 0.5rem;
   letter-spacing: 1px;
   padding: 0.375rem 0.75rem;
-  color: var(--main-color);
+  color: black;
   cursor: pointer;
   transition: all 0.3s linear;
   border-radius: 30%;
 }
 
 .filter-btn:hover {
-  background: #4caf50;
+  background: #4cc9f0;
   color: white;
 }
 

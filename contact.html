@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
-
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Hala Baghdad</title>
 </head>
 <body>
-
     <!-------------------------------------------- HEADER SECTION -->
     <header class="header" >
         <a href="./index.html" class="logo">
             <img src="./imageHala/halaBaghdadLogo.png" alt="logo">
         </a>
         <nav class="navbar">
-            <a href="./index.html" class="active">home</a>
+            <a href="./index.html">home</a>
             <a href="./about.html">Chi siamo</a>
             <a href="./menu.html">Il nostro menù</a>
             <a href="./contact.html">I nostri contatti</a>
@@ -27,158 +25,99 @@
             <!-- <a href="./blog.html">blog</a> -->
         </nav>
         <div class="buttons">
+
             <button id="menu-btn">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
-        <div class="search-form">
-            <input type="text" class="search-input" id="search-box" placeholder="Search">
-            <i class="fas fa-search"></i>
-        </div>
 
     </header>
-<!-- -------------------------------------------HEADER SECTION -->
 
-<!-- -------------------------------------------CONTACT SECTION -->
-<section class="contact" id="contact">
-    <h1 class="heading"> Contact <span>us</span> </h1>
-    <div class="row">
-        <div class="contact-options">
-            <div class="contact-card">
-                <i class="fas fa-phone"></i>
-                <h3>Chiamaci</h3>
-                <p style="font-weight: bold;">Disponibili da apertura fino a chiusura</p>
-                <a href="tel:+393298533315" class="contact-button">Chiama Ora</a>
-            </div>
-            <div class="contact-card">
-                <i class="fab fa-whatsapp"></i>
-                <h3>WhatsApp</h3>
-                <p style="font-weight: bold;">Messaggiaci su WhatsApp</p>
-                <a href="https://wa.me/+393298533315" class="contact-button">Chatta con Noi</a>
-            </div>
-
-            <div class="contact-card">
-                <i class="fab fa-instagram"></i>
-                <h3>Instagram</h3>
-                <p style="font-weight: bold;">Messaggiaci su Instagram</p>
-                <a href="https://instagram.com/hala_baghdad_ristorante/" class="contact-button">Seguici</a>
-            </div>
-
-</div>
-
-<style>
-.contact-options {
-  display: flex;
-  justify-content: space-around;
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px;
-}
-
-.contact-card {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  width: 300px;
-  transition: transform 0.3s ease;
-}
-
-.contact-card:hover {
-  transform: translateY(-5px);
-}
-
-.contact-card i {
-  font-size: 40px;
-  color: #4a90e2;
-  margin-bottom: 15px;
-}
-
-.contact-card h3 {
-  margin: 10px 0;
-  color: #333;
-}
-
-.contact-card p {
-  color: #666;
-  margin-bottom: 20px;
-}
-
-.contact-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #4a90e2;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-.contact-button:hover {
-  background: #357abd;
-}
-
-@media (max-width: 768px) {
-  .contact-options {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-card {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
-}
-</style>
-
-<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.2453011456115!2d7.6773306!3d45.0596138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d68c2eec2df%3A0x1c2e75561757f09e!2sHala%20baghdad%20%D8%AD%D9%84%D8%A7%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF!5e0!3m2!1sen!2s!4v1697361926065!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="about" id="about">
+        <h1 class="heading"><span>I NOSTRI </span>CONTATTI</h1>
+    </section>
 
 
 
+    <section class="about" id="about">
 
-
-
-
-
-    <!-- <form>
-        <h3>get in touch</h3>
-            <div class="inputBox">
-                <i class="fas fa-user"></i>
-                <input type="text" placeholder="name">
-            </div>
-            <div class="inputBox">
-                <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <i class="fas fa-phone"></i>
-                <input type="number" placeholder="number">
-            </div>
-            <input type="submit" class="btn" value="contact now">
-        </form> -->
-    </div>
-</section>
-<!-- -------------------------------------------CONTACT SECTION -->
-
-<!-- -------------------------------------------FOOTER SECTION -->
-    <section class="footer">
-
-        <div class="share">
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="https://www.instagram.com/hala_baghdad_ristorante/" class="fab fa-instagram"></a>
-            <a href="https://www.facebook.com/p/HalaBaghdad-Ristorante-100083848756531/" class="fab fa-facebook"></a>
+      <div class="row">
+        <div class="content">
+          <h3 style="color: #4cc9f0">COME RAGGIUNGERCI?</h3>
+          <div class="paragraph">
+            <p>
+            Puoi contattarci per ordini o informazioni tramite chiamata o WhatsApp.<br/>
+            Seguici su Instagram per restare aggiornato sulle novità e per scoprire i nostri piatti.<br/>
+            Per raggiungerci facilmente, trova la nostra posizione su Google Maps.<br/>
+            Siamo qui per offrirti un'esperienza unica!
+            </p>
+          </div>
         </div>
+      </di>
+    </section>
 
-        <div class="credit">
-            Created by <a href="https://www.instagram.com/buildwithxstudio/"> <span style="color:chartreuse">XStudio</span> </a> <br/> all rights reserved!
+
+
+
+
+    <!-- Contact Section -->
+    <section class="contact-map-section" id="contact">
+        <div class="map-container">
+            <iframe class="map-background"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.2453011456115!2d7.6773306!3d45.0596138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d68c2eec2df%3A0x1c2e75561757f09e!2sHala%20baghdad%20%D8%AD%D9%84%D8%A7%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF!5e0!3m2!1sen!2s!4v1697361926065!5m2!1sen!2s"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="contact-options">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Chiamaci</h3>
+                    <p>Disponibili da apertura fino a chiusura</p>
+                    <a href="tel:+393298533315" class="contact-button">Chiama Ora</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Messaggiaci su WhatsApp</p>
+                    <a href="https://wa.me/+393298533315" class="contact-button">Chatta con Noi</a>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>Messaggiaci su Instagram</p>
+                    <a href="https://instagram.com/hala_baghdad_ristorante/" class="contact-button">Seguici</a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="./script.js"></script>
+     <!-- -------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+      <h2 class="heading">Contact US</h2>
+      <div class="share">
+        <a href="#" class="fab fa-whatsapp"></a>
+        <a
+          href="https://www.instagram.com/hala_baghdad_ristorante/"
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://www.facebook.com/p/HalaBaghdad-Ristorante-100083848756531/"
+          class="fab fa-facebook"
+        ></a>
+      </div>
+
+      <div class="credit">
+        Created by
+        <a href="https://www.instagram.com/buildwithxstudio/">
+          <span style="color: chartreuse">XStudio</span>
+        </a>
+        <br />
+        all rights reserved!
+      </div>
+    </section>
 
 </body>
-</html>
