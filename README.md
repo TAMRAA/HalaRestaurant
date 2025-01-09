@@ -8,7 +8,7 @@ This project was built with passion and creativity to bring **authentic Iraqi fl
 
 ## What’s Inside
 - 🚀 **Amazing landing page** – A beautifully designed and engaging homepage.
-- 🎨 **Free navbar customization** – Personalize your navigation bar for a unique look.
+- 🎨 **Free navbar customization** – Personalize your navigation bar pages for a unique look.
 - ⚡ **Customizable menu** – A fully integrated, easily customizable menu within the web app.
 
 Feel free to explore, and don’t forget to follow us on Instagram for updates!
